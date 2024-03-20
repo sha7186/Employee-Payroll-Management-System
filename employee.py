@@ -274,7 +274,7 @@ def calculate(self):
           self.var_net_salary.set(str(round(net_sal,2)))
 
 
-def check_connection(EmpolyeeSystem): 
+def check_connection(self): 
      try:
           print("connection")
         #   con=pymysql.connect(host='localhost',user='root',password='',db='EPMS')
